@@ -1,0 +1,9 @@
+type: object
+properties:
+  RestaurantId:
+    type: number
+  Reason:
+    type: string
+example:
+  RestaurantId: '110230'
+  Reason: 'Customer did not answer the door'

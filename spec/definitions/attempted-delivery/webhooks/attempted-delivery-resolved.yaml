@@ -1,0 +1,35 @@
+type: object
+properties:
+  OrderId:
+    type: string
+  Tenant:
+    type: string
+  Resolution:
+    type: object
+    properties:
+      Type:
+        type: string
+      Cancellation:
+        type: object
+        properties:
+          Reason:
+            type: string
+      Redelivery:
+        type: object
+        properties:
+          Status:
+            type: string
+          NewDueDate:
+            format: date-time
+            type: string
+          CustomerTimeZone:
+            type: string
+example:
+  OrderId: 'wiej234idf09i29jijgf4'
+  Tenant: 'uk'
+  Resolution:
+    Type: 'Redelivery'
+    Redelivery:
+      Status: 'Repreparing'
+      NewDueDate: '2018-03-10T14:45:28Z'
+      CustomerTimeZone: 'GMT'

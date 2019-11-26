@@ -1,0 +1,15 @@
+type: object
+properties:
+  OrderId:
+    type: string
+  Tenant:
+    type: string
+  Update:
+    type: string
+  Notes:
+    type: string
+example:
+  OrderId: 'wiej234idf09i29jijgf4'
+  Tenant: 'uk'
+  Update: 'Please redeliver'
+  Notes: 'Please press 123 on the door'
