@@ -1,5 +1,7 @@
 type: object
 properties:
+  QueryId: 
+    type: string
   OrderId:
     type: string
   Tenant:
@@ -9,6 +11,7 @@ properties:
   Notes:
     type: string
 example:
+  QueryId: '123456'
   OrderId: 'wiej234idf09i29jijgf4'
   Tenant: 'uk'
   Update: 'Please redeliver'
