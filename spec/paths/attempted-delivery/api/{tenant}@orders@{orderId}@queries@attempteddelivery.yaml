@@ -1,7 +1,7 @@
 post:
   tags:
     - attempted-delivery-api
-  summary: Create Attempted Delivery Event
+  summary: Delivery Attempt Failed
   description: >- 
     If the customer hasn't answered the door to collect the order, then a attempted delivery event can be created using this endpoint.
   parameters:

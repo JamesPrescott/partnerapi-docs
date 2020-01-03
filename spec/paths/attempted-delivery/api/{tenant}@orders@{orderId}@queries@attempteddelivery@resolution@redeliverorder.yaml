@@ -2,7 +2,7 @@
 post:
   tags:
     - attempted-delivery-api
-  summary: Resolve Attempted Delivery Event As Redelivered
+  summary: Request Redelivery of the Order
   description: >- 
     If the customer responds, then you can trigger the redelivery of an order through this endpoint
   parameters:

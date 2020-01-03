@@ -1,7 +1,7 @@
-post:
+put:
   tags:
   - attempted-delivery-webhooks
-  summary: Attempted Delivery Event Resolved
+  summary: Cancel or Redeliver An Order
   description: "This webhook will be invoked whenever an attempted delivery event has been resolved as cancelled or for redelivery"
   requestBody:
     required: true

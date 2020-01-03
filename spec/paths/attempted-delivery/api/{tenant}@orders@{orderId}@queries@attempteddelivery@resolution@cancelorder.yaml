@@ -1,7 +1,7 @@
 post:
   tags:
     - attempted-delivery-api
-  summary: Resolve Attempted Delivery Event As Cancelled
+  summary: Cancel Order
   description: >- 
     If the customer is non-responsive, then the order can then be cancelled on this endpoint
   parameters:

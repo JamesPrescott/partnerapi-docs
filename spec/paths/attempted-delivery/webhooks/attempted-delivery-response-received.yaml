@@ -1,7 +1,7 @@
-post:
+put:
   tags:
   - attempted-delivery-webhooks
-  summary: Attempted Delivery Customer Response Received
+  summary: Customer Response Received
   description: "This webhook will be invoked whenever the customer responds to the attempted delivery notification."
   requestBody:
     required: true
