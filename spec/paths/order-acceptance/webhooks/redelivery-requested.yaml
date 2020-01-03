@@ -1,7 +1,7 @@
 put:
   tags:
   - attempted-delivery-webhooks
-  summary: Customer Response Received
+  summary: Customer Requested Redelivery
   description: "This webhook will be invoked whenever the customer responds to the attempted delivery notification."
   requestBody:
     required: true
